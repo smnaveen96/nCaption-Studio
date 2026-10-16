@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4BCCCA307A71B300137EBE /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4BCCC9307A71B300137EBE /* WhisperKit */; };
+		4C4BCCCC307A762B00137EBE /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4BCCCB307A762B00137EBE /* WhisperKit */; };
+		4C4BCCCF307A804900137EBE /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4BCCCE307A804900137EBE /* FluidAudio */; };
+		4C4BCCD1307A805300137EBE /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4BCCD0307A805300137EBE /* FluidAudio */; };
+		4C69C76B3079C06A00B70EF7 /* nCaptionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C69C75E3079C06A00B70EF7 /* nCaptionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C69C7693079C06A00B70EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1D058DE2E5FCBB3002E4184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C69C75D3079C06A00B70EF7;
+			remoteInfo = nCaptionExtension;
+		};
+		E1D058F52E5FCBB6002E4184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1D058DE2E5FCBB3002E4184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D058E52E5FCBB3002E4184;
+			remoteInfo = nCaptionStudio;
+		};
+		E1D058FF2E5FCBB6002E4184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1D058DE2E5FCBB3002E4184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D058E52E5FCBB3002E4184;
+			remoteInfo = nCaptionStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C69C76C3079C06A00B70EF7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C69C76B3079C06A00B70EF7 /* nCaptionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C4BCC9E307A3E7200137EBE /* nCaptionStudio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "nCaptionStudio-Info.plist"; sourceTree = "<group>"; };
+		4C69C75E3079C06A00B70EF7 /* nCaptionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = nCaptionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D058E62E5FCBB3002E4184 /* nCaptionStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nCaptionStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D058F42E5FCBB6002E4184 /* nCaption StudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nCaption StudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D058FE2E5FCBB6002E4184 /* nCaption StudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nCaption StudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C69C76F3079C06A00B70EF7 /* Exceptions for "nCaptionExtension" folder in "nCaptionExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4C69C75D3079C06A00B70EF7 /* nCaptionExtension */;
+		};
+		4C69C7783079C2E000B70EF7 /* Exceptions for "nCaption Studio" folder in "nCaptionExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AIRefiner.swift,
+				Contentview.swift,
+				Exportandparsing.swift,
+				FCPBridge.swift,
+				FCPXMLCaptionReader.swift,
+				Models.swift,
+				"MotionTitles/word by word highlight/large.png",
+				"MotionTitles/word by word highlight/small.png",
+				"MotionTitles/word by word highlight/word by word highlight.moti",
+				Subtitleviews.swift,
+				WhisperTranscription.swift,
+			);
+			target = 4C69C75D3079C06A00B70EF7 /* nCaptionExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4C69C75F3079C06A00B70EF7 /* nCaptionExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C69C76F3079C06A00B70EF7 /* Exceptions for "nCaptionExtension" folder in "nCaptionExtension" target */,
+			);
+			path = nCaptionExtension;
+			sourceTree = "<group>";
+		};
+		E1D058E82E5FCBB3002E4184 /* nCaption Studio */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C69C7783079C2E000B70EF7 /* Exceptions for "nCaption Studio" folder in "nCaptionExtension" target */,
+			);
+			path = "nCaption Studio";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C69C75B3079C06A00B70EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4BCCD1307A805300137EBE /* FluidAudio in Frameworks */,
+				4C4BCCCC307A762B00137EBE /* WhisperKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058E32E5FCBB3002E4184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4BCCCF307A804900137EBE /* FluidAudio in Frameworks */,
+				4C4BCCCA307A71B300137EBE /* WhisperKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058F12E5FCBB6002E4184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058FB2E5FCBB6002E4184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4BCCC8307A71B300137EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D058DD2E5FCBB3002E4184 = {
+			isa = PBXGroup;
+			children = (
+				4C4BCC9E307A3E7200137EBE /* nCaptionStudio-Info.plist */,
+				E1D058E82E5FCBB3002E4184 /* nCaption Studio */,
+				4C69C75F3079C06A00B70EF7 /* nCaptionExtension */,
+				4C4BCCC8307A71B300137EBE /* Frameworks */,
+				E1D058E72E5FCBB3002E4184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1D058E72E5FCBB3002E4184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1D058E62E5FCBB3002E4184 /* nCaptionStudio.app */,
+				E1D058F42E5FCBB6002E4184 /* nCaption StudioTests.xctest */,
+				E1D058FE2E5FCBB6002E4184 /* nCaption StudioUITests.xctest */,
+				4C69C75E3079C06A00B70EF7 /* nCaptionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C69C75D3079C06A00B70EF7 /* nCaptionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C69C7703079C06A00B70EF7 /* Build configuration list for PBXNativeTarget "nCaptionExtension" */;
+			buildPhases = (
+				4C69C75A3079C06A00B70EF7 /* Sources */,
+				4C69C75B3079C06A00B70EF7 /* Frameworks */,
+				4C69C75C3079C06A00B70EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4C69C75F3079C06A00B70EF7 /* nCaptionExtension */,
+			);
+			name = nCaptionExtension;
+			packageProductDependencies = (
+				4C4BCCCB307A762B00137EBE /* WhisperKit */,
+				4C4BCCD0307A805300137EBE /* FluidAudio */,
+			);
+			productName = nCaptionExtension;
+			productReference = 4C69C75E3079C06A00B70EF7 /* nCaptionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E1D058E52E5FCBB3002E4184 /* nCaptionStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D059082E5FCBB6002E4184 /* Build configuration list for PBXNativeTarget "nCaptionStudio" */;
+			buildPhases = (
+				E1D058E22E5FCBB3002E4184 /* Sources */,
+				E1D058E32E5FCBB3002E4184 /* Frameworks */,
+				E1D058E42E5FCBB3002E4184 /* Resources */,
+				4C69C76C3079C06A00B70EF7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C69C76A3079C06A00B70EF7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1D058E82E5FCBB3002E4184 /* nCaption Studio */,
+			);
+			name = nCaptionStudio;
+			packageProductDependencies = (
+				4C4BCCC9307A71B300137EBE /* WhisperKit */,
+				4C4BCCCE307A804900137EBE /* FluidAudio */,
+			);
+			productName = nCaptionStudio;
+			productReference = E1D058E62E5FCBB3002E4184 /* nCaptionStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1D058F32E5FCBB6002E4184 /* nCaption StudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D0590B2E5FCBB6002E4184 /* Build configuration list for PBXNativeTarget "nCaption StudioTests" */;
+			buildPhases = (
+				E1D058F02E5FCBB6002E4184 /* Sources */,
+				E1D058F12E5FCBB6002E4184 /* Frameworks */,
+				E1D058F22E5FCBB6002E4184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1D058F62E5FCBB6002E4184 /* PBXTargetDependency */,
+			);
+			name = "nCaption StudioTests";
+			packageProductDependencies = (
+			);
+			productName = nCaptionStudioTests;
+			productReference = E1D058F42E5FCBB6002E4184 /* nCaption StudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1D058FD2E5FCBB6002E4184 /* nCaption StudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D0590E2E5FCBB6002E4184 /* Build configuration list for PBXNativeTarget "nCaption StudioUITests" */;
+			buildPhases = (
+				E1D058FA2E5FCBB6002E4184 /* Sources */,
+				E1D058FB2E5FCBB6002E4184 /* Frameworks */,
+				E1D058FC2E5FCBB6002E4184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1D059002E5FCBB6002E4184 /* PBXTargetDependency */,
+			);
+			name = "nCaption StudioUITests";
+			packageProductDependencies = (
+			);
+			productName = nCaptionStudioUITests;
+			productReference = E1D058FE2E5FCBB6002E4184 /* nCaption StudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1D058DE2E5FCBB3002E4184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					4C69C75D3079C06A00B70EF7 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E1D058E52E5FCBB3002E4184 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E1D058F32E5FCBB6002E4184 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E1D058E52E5FCBB3002E4184;
+					};
+					E1D058FD2E5FCBB6002E4184 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E1D058E52E5FCBB3002E4184;
+					};
+				};
+			};
+			buildConfigurationList = E1D058E12E5FCBB3002E4184 /* Build configuration list for PBXProject "nCaption Studio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1D058DD2E5FCBB3002E4184;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4C4BCCC4307A6FC200137EBE /* XCRemoteSwiftPackageReference "WhisperKit" */,
+				4C4BCCCD307A7C4400137EBE /* XCRemoteSwiftPackageReference "FluidAudio" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E1D058E72E5FCBB3002E4184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1D058E52E5FCBB3002E4184 /* nCaptionStudio */,
+				E1D058F32E5FCBB6002E4184 /* nCaption StudioTests */,
+				E1D058FD2E5FCBB6002E4184 /* nCaption StudioUITests */,
+				4C69C75D3079C06A00B70EF7 /* nCaptionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C69C75C3079C06A00B70EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058E42E5FCBB3002E4184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058F22E5FCBB6002E4184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058FC2E5FCBB6002E4184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C69C75A3079C06A00B70EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058E22E5FCBB3002E4184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058F02E5FCBB6002E4184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D058FA2E5FCBB6002E4184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C69C76A3079C06A00B70EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C69C75D3079C06A00B70EF7 /* nCaptionExtension */;
+			targetProxy = 4C69C7693079C06A00B70EF7 /* PBXContainerItemProxy */;
+		};
+		E1D058F62E5FCBB6002E4184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1D058E52E5FCBB3002E4184 /* nCaptionStudio */;
+			targetProxy = E1D058F52E5FCBB6002E4184 /* PBXContainerItemProxy */;
+		};
+		E1D059002E5FCBB6002E4184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1D058E52E5FCBB3002E4184 /* nCaptionStudio */;
+			targetProxy = E1D058FF2E5FCBB6002E4184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C69C76D3079C06A00B70EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = /Library/Developer/SDKs/WorkflowExtensionSDK.sdk;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = nCaptionExtension/nCaptionExtension.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R9T6VN8T75;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nCaptionExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = nCaptionExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_ENTRY_POINT = _ProExtensionMain;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					"$(inherited)",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-fapplication-extension",
+					"-lProExtension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudio.nCaptionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "nCaptionExtension/nCaptionExtension-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
+		4C69C76E3079C06A00B70EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = /Library/Developer/SDKs/WorkflowExtensionSDK.sdk;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = nCaptionExtension/nCaptionExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R9T6VN8T75;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nCaptionExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = nCaptionExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_ENTRY_POINT = _ProExtensionMain;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					"$(inherited)",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-fapplication-extension",
+					"-lProExtension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudio.nCaptionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "nCaptionExtension/nCaptionExtension-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
+		};
+		E1D059062E5FCBB6002E4184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1D059072E5FCBB6002E4184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E1D059092E5FCBB6002E4184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nCaptionstudio.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = R9T6VN8T75;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nCaptionStudio-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1D0590A2E5FCBB6002E4184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nCaptionstudio.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = R9T6VN8T75;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nCaptionStudio-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1D0590C2E5FCBB6002E4184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nCaption Base.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nCaption Base";
+			};
+			name = Debug;
+		};
+		E1D0590D2E5FCBB6002E4184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nCaption Base.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nCaption Base";
+			};
+			name = Release;
+		};
+		E1D0590F2E5FCBB6002E4184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = nCaptionStudio;
+			};
+			name = Debug;
+		};
+		E1D059102E5FCBB6002E4184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smnaveen.ncaptionstudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = nCaptionStudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C69C7703079C06A00B70EF7 /* Build configuration list for PBXNativeTarget "nCaptionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69C76D3079C06A00B70EF7 /* Debug */,
+				4C69C76E3079C06A00B70EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D058E12E5FCBB3002E4184 /* Build configuration list for PBXProject "nCaption Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D059062E5FCBB6002E4184 /* Debug */,
+				E1D059072E5FCBB6002E4184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D059082E5FCBB6002E4184 /* Build configuration list for PBXNativeTarget "nCaptionStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D059092E5FCBB6002E4184 /* Debug */,
+				E1D0590A2E5FCBB6002E4184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D0590B2E5FCBB6002E4184 /* Build configuration list for PBXNativeTarget "nCaption StudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D0590C2E5FCBB6002E4184 /* Debug */,
+				E1D0590D2E5FCBB6002E4184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D0590E2E5FCBB6002E4184 /* Build configuration list for PBXNativeTarget "nCaption StudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D0590F2E5FCBB6002E4184 /* Debug */,
+				E1D059102E5FCBB6002E4184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C4BCCC4307A6FC200137EBE /* XCRemoteSwiftPackageReference "WhisperKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/WhisperKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4C4BCCCD307A7C4400137EBE /* XCRemoteSwiftPackageReference "FluidAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FluidInference/FluidAudio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C4BCCC9307A71B300137EBE /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4BCCC4307A6FC200137EBE /* XCRemoteSwiftPackageReference "WhisperKit" */;
+			productName = WhisperKit;
+		};
+		4C4BCCCB307A762B00137EBE /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4BCCC4307A6FC200137EBE /* XCRemoteSwiftPackageReference "WhisperKit" */;
+			productName = WhisperKit;
+		};
+		4C4BCCCE307A804900137EBE /* FluidAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4BCCCD307A7C4400137EBE /* XCRemoteSwiftPackageReference "FluidAudio" */;
+			productName = FluidAudio;
+		};
+		4C4BCCD0307A805300137EBE /* FluidAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4BCCCD307A7C4400137EBE /* XCRemoteSwiftPackageReference "FluidAudio" */;
+			productName = FluidAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E1D058DE2E5FCBB3002E4184 /* Project object */;
+}

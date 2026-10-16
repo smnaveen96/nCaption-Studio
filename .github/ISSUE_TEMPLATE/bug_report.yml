@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a reproducible problem in nCaption Studio
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Choose …
+        3. See …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: nCaption Studio version or commit
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Mac model, macOS version, Xcode version, and Final Cut Pro version if relevant
+    validations:
+      required: true
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Transcription or AI engine
+      options:
+        - Not applicable
+        - Apple
+        - Parakeet
+        - Whisper
+        - Anthropic Claude
+        - OpenAI
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional context
+      description: Add logs or screenshots after removing credentials and private media.

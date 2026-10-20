@@ -99,6 +99,8 @@ Contributions and bug reports are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md
 
 Created and maintained by Naveen. The project builds on earlier open-source work by Ken Raley.
 
+Developed with assistance from [Claude](https://claude.com/claude-code), Anthropic's AI coding assistant.
+
 WhisperKit is maintained by Argmax, and FluidAudio is maintained by FluidInference. Their respective licenses apply to those dependencies.
 
 ## License
